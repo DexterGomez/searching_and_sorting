@@ -51,4 +51,4 @@ elements = [random.randint(0,100) for i in range(10000)]
 quickSort(elements, 0, len(elements)-1)
 #print(elements)
 
-print('Elements have been sorted...')
+print('Elements have been sorted (Quick sort, 10 000 elements)...')

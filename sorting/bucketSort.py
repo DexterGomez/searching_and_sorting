@@ -1,4 +1,10 @@
 """
+Divide an unsorted array in 'buckets'
+Each bucket is sorted by a suitable sorting algorithm recursively
+
+Complexity:
+    Average O(n)
+    Worst O(n^2)
 
 """
 
@@ -39,4 +45,4 @@ elementsSorted = bucketSort(elements)
 
 #print(elementsSorted)
 
-print("elements have been sorted...")
+print("elements have been sorted (Bucket sort, 10 000 elements)...")

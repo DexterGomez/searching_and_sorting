@@ -42,7 +42,7 @@ def heapSort(arr):
 
 
 
-elements = [random.randint(0,999) for i in range(10000)]
+elements = [random.randint(0,99) for i in range(10000)]
 
 #print(elements)
 #print("--------------------")
@@ -50,4 +50,4 @@ elements = [random.randint(0,999) for i in range(10000)]
 heapSort(elements)
 
 #print(elements)
-print("Elements have been sorted...")
+print("Elements have been sorted (Heap sort, 10 000 elements)...")

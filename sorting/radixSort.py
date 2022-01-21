@@ -55,4 +55,4 @@ radixSort(elements)
 
 #print(elements)
 
-print("Elements have been sorted...")
+print("Elements have been sorted... (radix sort, 10 000 elements)")

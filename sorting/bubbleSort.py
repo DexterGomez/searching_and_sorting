@@ -40,4 +40,4 @@ elements = [random.randint(0,100) for i in range(10000)]
 r = bubbleSort(elements)
 #print(r)
 
-print('Elements have been sorted...')
+print('Elements have been sorted (Bubble sort, 10 000 elements)...')
